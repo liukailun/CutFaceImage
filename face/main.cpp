@@ -88,34 +88,7 @@ int main(void)
 	}
 	printf("ok \n");
 
-
-
-
-
-	////-- 1. Load the cascade
-	//if (!face_cascade.load(face_cascade_name)){ printf("--(!)Error loading\n"); return -1; };
-	////-- 2. Read the image
-	//IplImage* img = cvLoadImage("./input/test.jpg", CV_LOAD_IMAGE_COLOR);
-	//Mat frame(img);
-	////-- 3. Apply the classifier to the frame
-	//if (!frame.empty())
-	//{
-	//	detectAndDisplay(frame);
-	//}
-	//else
-	//{
-	//	printf("--(!)Error!\n");
-	//}
-	//waitKey();
-	//cvDestroyWindow(window_name.c_str());
-	//cvReleaseImage(&img);
-
 	return 0;
-
-
-
-
-
 
 }
 /**
